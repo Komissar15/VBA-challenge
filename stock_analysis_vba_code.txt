@@ -55,7 +55,7 @@ Sub StockAnalysisAllSheets()
                 ' Output data for the current year
                 ws.Cells(SummaryRow, 9).Value = Ticker ' Ticker
                 ws.Cells(SummaryRow, 10).Value = YearlyChange
-                ws.Cells(SummaryRow, 11).Value = PercentChange & "%" ' Adding percent sign here
+                ws.Cells(SummaryRow, 11).Value = PercentChange & "%" 
                 ws.Cells(SummaryRow, 12).Value = TotalVolume
                 
                 ' Update summary variables for the current year
